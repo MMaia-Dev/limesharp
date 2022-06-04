@@ -1,0 +1,66 @@
+@import url("./fonts.css");
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header{
+    font-size: 28px;
+    color: white;
+    font-family: Gotham-Bold;
+    margin: 15px auto;
+    letter-spacing: -1px;
+
+}
+
+hr {
+    width: 25px;
+    background-color: white;
+    border-top: 0px;
+    height: 1px;
+}
+
+.text1{
+    
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 14px;    
+    font-family: ProximaNova-Regular;
+    color: #627278;;
+}
+
+.text2{
+    font-size: 14px;
+    margin: 0;
+    font-family: ProximaNova-Regular;
+    color: #627278;
+}
+
+
+@media only screen and (min-width : 240px) and (max-width : 600px) {
+    .main{
+        padding: 0px 28px;
+        margin-bottom: 26px;
+    }
+
+    hr {
+      background-color: #95b3d9;        
+      border-color: #95b3d9;
+      margin: 0 auto;
+    }
+
+    .header {
+        font-size: 25px;
+        padding: 0px 15px;
+    }
+}
+
+
+@media only screen and (min-width : 601px) and (max-width : 992px) {
+    .main{
+        margin-bottom: 40px;
+    }
+}

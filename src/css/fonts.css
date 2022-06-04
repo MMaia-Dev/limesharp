@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Gotham-Bold;
+    src: url("../fonts/Gotham-Bold.ttf");
+    font-weight: 700;   
+    font-display: auto;
+ }
+
+ @font-face {
+    font-family: ProximaNova-Regular;
+    src: url("../fonts/ProximaNova-Regular.ttf");
+    font-weight: 700;    
+    font-display: auto;
+ }

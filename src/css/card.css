@@ -1,0 +1,111 @@
+@import url("./fonts.css");
+
+.card{
+    width: 190px;
+    background-color: #57665f;
+    justify-content: center;
+    height: 173px;
+   }
+
+
+.btn-expand-more{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.block{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    margin-top: 30px;
+    font-family: Gotham-Bold;
+    }
+
+.open{
+    font-size: 14px;
+    margin-top: 8px;
+    font-family: ProximaNova-Regular;
+    color: #627278;
+}
+
+.closed {
+    font-size: 14px;
+    margin-top: 8px;
+    font-family: ProximaNova-Regular;
+    color: #627278;
+}
+
+.image{
+    width: 40px;    
+    height: 43px;
+    margin: 0;
+    display: inline-block;
+}
+
+ /* MEDIA QUERIES */
+    /* Mobile */
+    @media only screen and (min-width : 240px) and (max-width : 600px) {
+        .card {
+            border-radius: 4px;
+            width: 220px;
+            padding-top: 10px;            
+        }
+
+        .btn-expand-more{
+                       
+            background-color: #57665f;
+            padding-bottom: 13px;
+        }
+        
+        .selected,closed{
+            background-color: black;
+        }
+
+        .open{
+            margin-bottom: 0px;
+        }
+        
+        .block {
+            font-size: 12px;            
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        .selected .btn-expand-more{
+            background-color: #57665f;
+            height: 12px;
+            width: 27px;
+            border-radius: 100%;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .image{
+            margin: 6px;
+            position: relative;
+            top: 4px;
+        }
+        
+        .badge {
+            height: 9px;
+            width: 33px;
+            background-color: #996c4f;
+            position: relative;
+            left: calc(100% - 33px);
+          }
+
+          .selected .badge{
+              display: none;
+          }
+
+          .selected .block{
+            padding-top: 21px;
+          }
+        
+    }
+
+    
+
+      
